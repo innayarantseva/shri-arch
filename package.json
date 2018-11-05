@@ -1,0 +1,26 @@
+{
+  "name": "shri-arch",
+  "version": "1.0.0",
+  "description": "Homemade Flux framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innayarantseva/shri-arch.git"
+  },
+  "author": "Inna Yarantseva",
+  "bugs": {
+    "url": "https://github.com/innayarantseva/shri-arch/issues"
+  },
+  "homepage": "https://github.com/innayarantseva/shri-arch#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.25.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
